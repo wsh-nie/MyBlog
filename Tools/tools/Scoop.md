@@ -228,5 +228,3 @@ scoop install aria2
 
 2019.9.3
 
-
-kkk
