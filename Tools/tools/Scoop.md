@@ -1,3 +1,5 @@
+# Scoop
+
 ## 为什么使用[scoop](https://scoop.sh/)
 
 在公司开发中，因为配置`hogo`环境，发现了这款神器，当时就决定自己再次重装系统的时候一定要使用这个好东西。正好小磊送我一个固态，装好`win10`就用来练手了。
@@ -66,6 +68,8 @@ scoop search jdk
 
 我们将得到如下结果:
 ```powershell
+Results from other known buckets...
+(add them using 'scoop bucket add <name>')
 'java' bucket:
     adoptopenjdk-hotspot-jre (12.0.2-10)
     adoptopenjdk-hotspot (12.0.2-10)
