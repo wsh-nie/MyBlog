@@ -24,6 +24,22 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 #命令行安装scoop 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
+
+安装信息如下：
+
+```powershell
+Initializing...
+Downloading scoop...
+Extracting...
+Creating shim...
+Downloading main bucket...
+Extracting...
+Adding ~\scoop\shims to your path.
+'lastupdate' has been set to '2019-09-05T17:35:29.5012454+08:00'
+Scoop was installed successfully!
+Type 'scoop help' for instructions.
+```
+
 安装完成之后，输入`scoop help`查看可用指令，常见指令如下：
 
 ```powershell
